@@ -5,69 +5,44 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="test.css" />
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="font/Rimouski.css">
+
 </head>
 
-<!--https://storage.googleapis.com/absolute-enigmatiumroom/images/v03/escape-room-barcelona.jpg-->
 
 <body>
 
-   <div id="mh-cards">
-        <h3>My Projects</h3>
-        <div class="container">
-          
-          <div class="row">
-            <div class="col">
-              <div class="card mh-card" >
-                <img src="images/hotel.png"
-                  class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Hotel WebSite</h5>
-                  <p class="card-text">Project done in HTML, CSS and Bootstrap</p>
-                  <a href="https://carlossanchezheil1984.github.io/myfirstproject/" class="btn btn-primary">Go to the project</a>
-                  <a href="https://github.com/carlossanchezheil1984/myfirstproject/" class="btn btn-primary">Go to the code</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mh-card">
-                <img src="images/crud.png"
-                  class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">TypeForm CRUD</h5>
-                  <p class="card-text">Javascript project.</p>
-                  <a href="https://carlossanchezheil1984.github.io/myfirstproject/" class="btn btn-primary">Go to the project</a>
-                  <a href="https://github.com/carlossanchezheil1984/myfirstproject/" class="btn btn-primary">Go to the code</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mh-card">
-                <img src="images/chart.png"
-                  class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Budapest</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="https://carlossanchezheil1984.github.io/myfirstproject/" class="btn btn-primary">Go to the project</a>
-                  <a href="https://github.com/carlossanchezheil1984/myfirstproject/" class="btn btn-primary">Go to the code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          </div>
+   <div id="main" class="main">
+
+    <div class="project-container">
+      <div class="app-title">
+          <p>Hotel</p>
+      </div>
+      <div class="notification"> </div>
+      <div class="weather-container">
+        <img src="images/hotel.png"
+                  class="project-img" alt="...">
+        <p class="temperature-description">Project done in HTML, CSS and Bootstrap</p>
+        <a target="_blank" class="link" href="https://carlossanchezheil1984.github.io/myfirstproject/">Go to the project</a>
+        <a target="_blank" class="link" href="https://github.com/carlossanchezheil1984/myfirstproject/">Go to the code</a>
+      </div>
+  </div>
+
+  <div class="project-container">
+    <div class="app-title">
+        <p>Weather APP</p>
+    </div>
+    <div class="notification"> </div>
+    <div class="weather-container">
+      <img src="images/weather.png"
+                class="project-img" alt="...">
+      <p class="temperature-description">Website go get the current temperature of your favourite cities doing requests to "Weatherbit API"</p>
+      <a target="_blank" class="link" href="https://carlossanchezheil1984.github.io/myfirstproject/">Go to the project</a>
+      <a target="_blank" class="link" href="https://github.com/carlossanchezheil1984/myfirstproject/">Go to the code</a>
+    </div>
+</div>
+
    </div>
 </body>
 </html>
